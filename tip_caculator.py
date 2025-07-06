@@ -16,5 +16,5 @@ total_with_tip = total_bill + tip_amount
 # Get the total Bill with per person 
 amount_per_person =  round(total_with_tip / people
 )
-
+# this should print the total amount
 print(f"each person should pay: ${amount_per_person}")
